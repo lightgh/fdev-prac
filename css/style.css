@@ -9,13 +9,18 @@ ul{
 
 	justify-content: center;
 	
+	align-items: flex-start;
 
 }
 
 li{
 	width: 100px;
-	height: 100px;
+	
 	background-color: #8cacea;
 	margin: 8px;
+}
+
+li:not(:first-child){
+	font-size: 2rem;
 }
 
