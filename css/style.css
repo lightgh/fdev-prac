@@ -7,6 +7,9 @@ ul{
 	
 	flex-flow: wrap row;
 
+	justify-content: center;
+	
+
 }
 
 li{
